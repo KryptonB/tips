@@ -1,0 +1,8 @@
+if you get an error when installing/updating an atom package (eg: atom-beautify) saying "SSS Self Signed Certificate"
+
+the run below command and reinstall the package
+apm config set strict-ssl false
+------------------------------------
+
+to check if atom is installed correctly or not, run (from C:\Users\hp) (your home directory)
+apm -v
